@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="800.0" stylesheets="@uistyle.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jarcopolo.invitations.ui.Controller">
+<AnchorPane maxHeight="500.0" prefHeight="700.0" prefWidth="1200.0" stylesheets="@uistyle.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jarcopolo.invitations.ui.Controller">
    <children>
-      <Label fx:id="lblMain" layoutX="185.0" layoutY="14.0" text="Wygeneruj zaproszenie :D">
-         <font>
-            <Font size="36.0" />
-         </font>
+      <Label fx:id="lblMain" alignment="CENTER" contentDisplay="CENTER" layoutX="356.0" layoutY="14.0" text="Wygeneruj zaproszenie :D" textAlignment="CENTER" AnchorPane.topAnchor="14.0">
       </Label>
+      <Separator layoutX="598.0" layoutY="-28.0" orientation="VERTICAL" prefHeight="600.0" />
+      <Group AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="100.0">
+         <children>
+            <Label layoutX="50.0" layoutY="100.0" prefHeight="35.0" text="Twoje imię:" />
+            <TextField layoutX="190.0" layoutY="100.0" prefHeight="35.0" prefWidth="150.0" />
+            <Label layoutX="50.0" layoutY="150.0" prefHeight="35.0" text="Zapraszam na:" />
+            <TextField layoutX="190.0" layoutY="150.0" prefHeight="35.0" prefWidth="150.0" />
+         </children>
+      </Group>
    </children>
 </AnchorPane>

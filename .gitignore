@@ -1,4 +1,9 @@
 target/
 .idea/
+!.idea/runConfigurations/
+
 invitations.iml
 dependency-reduced-pom.xml
+
+# Windows
+Thumbs.db
