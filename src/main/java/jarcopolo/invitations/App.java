@@ -17,6 +17,7 @@ public class App extends Application {
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("ui/style.fxml"));
         stage.setScene(new Scene(root, 1200, 700));
+        stage.setTitle("Invitations");
         stage.show();
 
     }
